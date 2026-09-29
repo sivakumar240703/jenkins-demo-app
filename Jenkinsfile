@@ -11,6 +11,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'jenkins-demo-app'
+        PATH = "C:\\Users\\Administrator\\AppData\\Local\\Programs\\DockerDesktop\\resources\\bin;${env.PATH}"
     }
 
     stages {
